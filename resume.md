@@ -9,13 +9,13 @@ Seasoned Site Reliability Engineer with 10+ years of experience in cloud infrast
 ## Technical Skills
 
 **Cloud Platforms:** AWS, GCP, Azure  
-**Containers & Orchestration:** Kubernetes, Docker, Podman, Cilium CNI  
-**Infrastructure as Code:** Terraform, CloudFormation, ARM Templates, Ansible  
-**CI/CD:** GitHub Actions, Azure Pipelines, GitLab CI, ArgoCD  
-**Monitoring & Observability:** Prometheus, Grafana, Loki, Pyroscope, SLO/SLI implementation  
+**Containers & Orchestration:** Kubernetes, Docker,Gateway API 
+**Infrastructure as Code:** Terraform, CloudFormation, Pulumi, Ansible  
+**CI/CD:** GitHub Actions, Azure Pipelines, GitLab CI, Argo CD, Rollouts, events
+**Monitoring & Observability:** Prometheus, Grafana, Loki,Tempo, Beyla, Mimir , identity aware L3/L4 observability
 **Languages:** Golang, Python, Bash  
-**Databases:** PostgreSQL, Pub/Sub  
-**Security:** Zero Trust models, Network Policy enforcement  
+**Databases:** PostgreSQL, Mysql, Redis, Pub/Sub  
+**Security:** Zero Trust models, Network Policy enforcement, Runtime security, Cilium CNI  
 
 ## Work Experience
 
