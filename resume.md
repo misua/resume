@@ -6,13 +6,13 @@
 
 Seasoned Site Reliability Engineer with 10+ years of experience in cloud infrastructure, DevOps practices, and Kubernetes environments. Specialized in building scalable, resilient systems with strong focus on observability, GitOps, and security. Proven track record of optimizing infrastructure performance and implementing automation solutions across AWS, GCP, and Azure platforms.
 
-## Technical Skills
+## Working Skills
 
 **Cloud Platforms:** AWS, GCP, Azure  
-**Containers & Orchestration:** Kubernetes, Docker,Gateway API 
+**Containers & Orchestration:** Kubernetes, Docker, Gateway API  
 **Infrastructure as Code:** Terraform, CloudFormation, Pulumi, Ansible  
-**CI/CD:** GitHub Actions, Azure Pipelines, GitLab CI, Argo CD, Rollouts, events
-**Monitoring & Observability:** Prometheus, Grafana, Loki,Tempo, Beyla, Mimir , identity aware L3/L4 observability
+**CI/CD:** GitHub Actions, Azure Pipelines, GitLab CI, Argo CD, Rollouts, events  
+**Monitoring & Observability:** Prometheus, Grafana, Loki, Tempo, Beyla, Mimir, identity aware L3/L4 observability  
 **Languages:** Golang, Python, Bash  
 **Databases:** PostgreSQL, Mysql, Redis, Pub/Sub  
 **Security:** Zero Trust models, Network Policy enforcement, Runtime security, Cilium CNI  
