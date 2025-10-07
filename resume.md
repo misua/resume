@@ -119,7 +119,7 @@ Seasoned Site Reliability Engineer with **10+ years** of experience in cloud inf
 
 - 🏆 [**Coursera DevOps Professional Certificate**](https://www.coursera.org/account/accomplishments/verify/PVYQTG8NK7LL)
 - 🏆 [**Tigera Certified Kubernetes Security Specialist**](https://courses.academy.tigera.io/certificates/f00d7bf239a74f1c8318e6900d33c69e)
-- 🏆 [**Certified Kubernetes Administrator (CKA)**](https://kodekloud.com/certificate-verification/2D0662AC7F50-2D065CB64DDD-2D06571C2428)
+- 🏆 [**Certified Kubernetes Administrator Course**](https://kodekloud.com/certificate-verification/2D0662AC7F50-2D065CB64DDD-2D06571C2428)
 
 ---
 
