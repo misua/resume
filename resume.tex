@@ -1,0 +1,185 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{fontawesome5}
+
+% Page setup
+\geometry{left=0.75in,right=0.75in,top=0.6in,bottom=0.6in}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Colors
+\definecolor{headerblue}{RGB}{41,57,94}
+\definecolor{sectiongray}{RGB}{80,80,80}
+
+% Section formatting
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    pdfborder={0 0 0}
+}
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4}
+  \vspace{2pt}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\textbf{\textcolor{headerblue}{CHARLES M. PINO}}}\\[4pt]
+    {\large\textbf{Site Reliability Engineer | DevOps Specialist}}\\[8pt]
+    \faPhone\ +639470318319 \quad
+    \faEnvelope\ biss.dakk@gmail.com \quad
+    \faMapMarker\ Philippines\\[2pt]
+    \faGithub\ github.io/misua \quad
+    \faLinkedin\ linkedin.com/in/charleszpino/
+\end{center}
+
+\vspace{6pt}
+
+% Summary Section
+\section*{SUMMARY}
+Seasoned Site Reliability Engineer with 10+ years of experience in cloud infrastructure, DevOps practices, and Kubernetes environments. Specialized in building scalable, resilient systems with strong focus on observability, GitOps, and security. Proven track record of optimizing infrastructure performance and implementing automation solutions across AWS, GCP, and Azure platforms.
+
+% Skills Section
+\section*{SKILLS}
+
+\textbf{Programming Skills}\\
+Golang \quad Python \quad Bash
+
+\vspace{6pt}
+
+\textbf{Databases \& Cloud Services}\\
+PostgreSQL \quad MySQL \quad Redis \quad Pub/Sub \quad AWS \quad GCP \quad Azure
+
+\vspace{6pt}
+
+\textbf{Tools}\\
+Kubernetes \quad Docker \quad Terraform \quad Pulumi \quad Ansible \quad CloudFormation
+
+\vspace{6pt}
+
+\textbf{Development}\\
+GitHub Actions \quad Azure Pipelines \quad GitLab CI \quad Argo CD \quad Argo Rollouts \quad Argo Events
+
+\vspace{6pt}
+
+\textbf{Monitoring \& Observability}\\
+Prometheus \quad Grafana \quad Loki \quad Tempo \quad Beyla \quad Mimir \quad OpenTelemetry
+
+% Education Section
+\section*{EDUCATION}
+
+\textbf{B.S. Computer Science} \hfill \textbf{GPA}\\
+\textbf{AMA Computer University} \hfill \textbf{N/A}\\
+\faCalendar\ Graduated \quad \faMapMarker\ Davao City, Philippines
+
+% Experience Section
+\section*{EXPERIENCE}
+
+\resumeSubheading
+{Site Reliability Engineer}{\faCalendar\ 2023 - 2025}
+{Ujet.cx}{\faMapMarker\ Remote}
+
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+    \item Designed and implemented cloud infrastructure (EKS, GKE, Kubernetes) and CI/CD pipelines tailored to client needs, reducing customer deployment time by 40\%
+    \item Integrated security controls (SAST, Snyk, Clair, Trufflehog) and application performance monitoring (APM) and profiling, resulting in 30\% faster incident detection
+    \item Developed and deployed infrastructure using Pulumi (Python) and Terraform with Vault for secure secrets management, achieving 95\% infrastructure-as-code coverage
+    \item Spearheaded the integration and development of OpenTelemetry instrumentation across Ruby and Go backend services, enabling comprehensive tracing, metrics, and logging for enhanced system monitoring
+    \item Streamlined deployment processes using Azure Pipelines, Argo tools, AWS, and GCP CloudBuild
+    \item Led early adoption of GitHub Actions for CI/CD, improving developer workflow efficiency by 25\%
+\end{itemize}
+
+\resumeSubheading
+{Site Reliability Engineer}{\faCalendar\ 2021 - 2023}
+{Paack}{\faMapMarker\ Remote}
+
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+    \item Ensured high availability and scalability for a platform serving 20+ million monthly users on Google Cloud Platform (GCP) with 99.9\% uptime
+    \item Managed infrastructure using Kubernetes, Golang/Python APIs, PostgreSQL, and Pub/Sub
+    \item Enhanced system performance through advanced monitoring with Grafana, Prometheus, Loki, and Pyroscope, focusing on SLO/SLI-based monitoring, reducing system latency by 35\%
+    \item Implemented GitOps practices with ArgoCD, events, workflows, rollouts, and Flagger + Gateway API for progressive deployments, decreasing deployment failures by 60\%
+    \item Collaborated with engineering teams to optimize performance, debug issues, and identify bottlenecks through application profiling in Ruby and Go Apps, improving MTTR by 45\%
+    \item Deployed and managed Kubernetes clusters with Cilium CNI, enhancing network policy enforcement and implementing Zero Trust security, achieving zero critical vulnerabilities
+\end{itemize}
+
+\resumeSubheading
+{DevOps Engineer}{\faCalendar\ 2016 - 2020}
+{Orecx LLC}{\faMapMarker\ Remote}
+
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+    \item Developed infrastructure scripts and templates using Terraform, and developed APIs in Go for services consumed by several external clients
+    \item Implemented robust and automated CI/CD pipelines using GitLab CI/CD integrated with Kubernetes (EKS, AKS, GKE), resulting in 75\% reduction in deployment time and 99.9\% deployment success rate
+    \item Developed, managed, and maintained Infrastructure as Code (IaC) scripts and templates using Terraform to provision and manage cloud resources (AWS/Azure/GCP) for hundreds of production and staging environments
+    \item Implemented centralized logging solutions (ELK Stack/Splunk) to streamline troubleshooting, enabling faster root cause analysis (RCA) and proactive identification of system anomalies
+    \item Led incident response team, reducing P1 incidents by 40\% through root cause analysis and preventive measures
+\end{itemize}
+
+\resumeSubheading
+{Linux Support Engineer}{\faCalendar\ 2010 - 2016}
+{Orecx LLC}{\faMapMarker\ Remote}
+
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+    \item Conducted capacity planning, performance tuning, and disaster recovery testing for high availability, achieving 99.5\% uptime
+    \item Provided on-call support, incident management, root cause analysis, and implemented preventive measures with 95\% customer satisfaction
+    \item Optimized Linux server configurations (kernel parameters, I/O schedulers) and application performance, resulting in 20\% reduction in average latency and improved system throughput
+    \item Developed and maintained comprehensive disaster recovery plans using tools like rsync and DRBD/Pacemaker, successfully reducing potential downtime from 4 hours to under 30 minutes in simulated failover tests
+\end{itemize}
+
+\resumeSubheading
+{Security Engineer (Contract)}{\faCalendar\ 2013}
+{Smartmatic - Presidential Elections}{\faMapMarker\ Philippines}
+
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+    \item Managed and enforced comprehensive security posture for critical election systems and infrastructure hosted in major Philippine data centers (Globe/PLDT), ensuring maximum confidentiality, integrity, and availability (CIA)
+    \item Designed, deployed, and managed host-based firewalls (iptables/firewalld) across a large fleet of production CentOS servers in geographically dispersed data centers
+    \item Automated firewall configuration management across hundreds of nodes using configuration management tools (Ansible, Puppet) to ensure consistent security policy deployment
+\end{itemize}
+
+% Certifications Section
+\section*{CERTIFICATION}
+
+\textbf{Coursera DevOps Professional Certificate}\\
+Coursera, 2023
+
+\textbf{Tigera Certified Kubernetes Security Specialist}\\
+Tigera Academy, 2023
+
+\textbf{Certified Kubernetes Administrator}\\
+KodeKloud, 2022
+
+% Strengths Section
+\section*{STRENGTHS}
+
+\faComments\ \textbf{Communication}\\
+Open-minded, outgoing and patient in conversations with others. Strong collaboration skills across distributed teams.
+
+\vspace{6pt}
+
+\faStar\ \textbf{Problem Solving \& Technical Excellence}\\
+Proven ability to optimize complex systems, reduce latency, and implement scalable solutions. Strong focus on automation, observability, and security best practices.
+
+\end{document}

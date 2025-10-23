@@ -127,11 +127,15 @@ Seasoned Site Reliability Engineer with **10+ years** of experience in cloud inf
 ## 📂 Portfolio
 
 ### **DevOps / SRE Related Work**
-- 🔗 [DevOps Portfolio](https://github.com/misua/eks-with-otel)
+- 🔗 [DevOps - EKS, CI/CD, ArgoCD, OpenTelemetry](https://github.com/misua/eks-with-otel)
+- 🔗 [DevOps - Azure, CI/CD, ArgoCD, OpenTelemetry](https://github.com/misua/azureDevops)
 
 ### **Backend / Development Work**
 - 🔗 [Kafka Projects](https://github.com/misua/kafka)
-- 🔗 [Python Projects](https://github.com/misua/idle_tracker)
+- 🔗 [Python - Idle Tracker](https://github.com/misua/idle_tracker)
+- 🔗 [Python - Quake Monitor Web](https://github.com/misua/quake_monitor_web)
+
+
 
 ---
 
