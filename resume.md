@@ -47,7 +47,15 @@ Seasoned Site Reliability Engineer with **10+ years** of experience in cloud inf
 </tr>
 <tr>
 <td><strong>🗄️ Databases</strong></td>
-<td>PostgreSQL, MySQL, Redis, Pub/Sub</td>
+<td>PostgreSQL, MySQL, Redis, Pub/Sub, BigQuery, Data Pipelines & ETL</td>
+</tr>
+<tr>
+<td><strong>📞 Telephony</strong></td>
+<td>FreeSWITCH, Python Integration, Svelte Frontend</td>
+</tr>
+<tr>
+<td><strong>⚙️ Automation</strong></td>
+<td>Kestra, Windmill</td>
 </tr>
 <tr>
 <td><strong>🔒 Security</strong></td>
@@ -134,6 +142,8 @@ Seasoned Site Reliability Engineer with **10+ years** of experience in cloud inf
 - 🔗 [Kafka Projects](https://github.com/misua/kafka)
 - 🔗 [Python - Idle Tracker](https://github.com/misua/idle_tracker)
 - 🔗 [Python - Quake Monitor Web](https://github.com/misua/quake_monitor_web)
+- 🔗 [Telephony - FreeCalls](https://github.com/misua/freecalls)
+- 🔗 [Healthcare - Convo](https://github.com/misua/convo)
 
 
 
